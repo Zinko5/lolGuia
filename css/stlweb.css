@@ -1,0 +1,111 @@
+/* Comentar: Ctrl + Shift + A
+Borrar: Ctrl + x */
+body {
+    display: flex;
+    min-height: min-content;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    color: #CECECE;
+    background-color: #222831;
+    font-family: 'Rubik', 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    background-color: #393E46;
+    font-size: 20pt;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    /*min-height: 800px;
+    max-height: 5460px;*/
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #393E46;
+    min-height: 21px;
+    max-height: 7%;
+}
+.space {
+    padding: 15px;
+}
+#directorio {
+    display: flex;
+    padding: 10px 30px;
+    font-size: 10pt;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.directorio {
+    background-color: rgba(59, 47, 134, 0.877);
+    display: flex;
+    padding: 6px 200px;
+    text-align: center;
+}
+.texto {
+    padding: 3% 15%;
+}
+.solotexto {
+    padding: 30px 200px 10px 200px;
+    text-align: justify;
+    font-size: 14pt;
+}
+#titulo {
+    padding: 20px 10%;
+    display: flex;
+    font-size: 20pt;
+    justify-content: center;
+}
+#tituloindex {
+    font-size: 22pt;
+    text-align: center;
+    margin: 33pt auto 40pt auto;
+}
+.subtitulo {
+    font-size: 16pt;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+#menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 22%;
+}
+.menus{
+    /* background-color: coral; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 25%;
+    /* margin-bottom: 2%; */
+}
+.menu {
+    justify-content: space-between;
+}
+ul {
+    padding-left: 5pt;
+}
+a {
+    color: #00ADB5;
+    line-height : 16pt;
+}
+#no-line {
+    text-decoration: none;
+    color: #CECECE;
+}
+code {
+    overflow: auto;
+    white-space: nowrap;
+    font-family: 'Ubuntu Mono';
+    padding: 10px;
+    display: block;
+    background-color:#393E46;
+    margin: 10px 0px;
+}
